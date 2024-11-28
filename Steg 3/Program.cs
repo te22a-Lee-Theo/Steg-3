@@ -19,23 +19,40 @@
 
 // Square();
 
-static void Multi()
+// static void Multi()
+// {
+//     System.Console.WriteLine("Enter a number");
+//     string First = Console.ReadLine();
+//     int Num1;
+//     bool lyckad = int.TryParse(First, out Num1);
+
+//     System.Console.WriteLine("Enter a second number");
+//     string Second = Console.ReadLine();
+//     int Num2;
+//     bool lyckad2 = int.TryParse(Second, out Num2);
+
+//     System.Console.WriteLine(Num1*Num2);
+
+// }
+
+// Multi();
+
+static void RightTriangleArea()
 {
-    System.Console.WriteLine("Enter a number");
-    string First = Console.ReadLine();
-    int Num1;
-    bool lyckad = int.TryParse(First, out Num1);
+    System.Console.WriteLine("Enter the length of the triangle");
+    string length = Console.ReadLine();
+    int Length;
+    bool lyckad = int.TryParse(length, out Length);
 
-    System.Console.WriteLine("Enter a second number");
-    string Second = Console.ReadLine();
-    int Num2;
-    bool lyckad2 = int.TryParse(Second, out Num2);
+    System.Console.WriteLine("Enter the height of the triangle");
+    string height = Console.ReadLine();
+    int Height;
+    bool lyckad2 = int.TryParse(height, out Height);
 
-    System.Console.WriteLine(Num1*Num2);
-
+    System.Console.WriteLine(Length*Height/2);
 }
 
-Multi();
+RightTriangleArea();
 
 
 
